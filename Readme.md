@@ -125,3 +125,32 @@ fileSerialized -- guarda --> tablaPisos;
 ```
 
 
+# Solution
+
+First of all we connect de database **postgres** so we have all the date storage and now we can work fluently with **PHP**
+
+## Database
+
+We have a database called **postgres** with two tables **properties** and **floors**:
+
+## FILES
+
+We have a file called **zones.txt** with the following content:
+
+```txt
+z1_calvario_2300
+z2_teis_2100
+z3_rosalia_1000
+z4_centro_3000
+z5_principe_4000
+z6_lavadores_2000
+z7_travesia_1000
+z8_traviesas_1600
+z9_navia_1600
+z10_bouzas_3000
+z11_cabral_1400
+```
+So we have to read this file and exract the information to compare with the perfect query to the database
+
+
+
