@@ -56,28 +56,36 @@ z10_bouzas_3000
 z11_cabral_1400
 
 Table "properties":
-codp | codz
-------+------
-p1   | z2
-p2   | z3
-p3   | z4
-p4   | z5
-p5   | z1
-p6   | z8
-p7   | z9
-p8   | z8
-p9   | z2
-p10  | z3
-p11  | z7
-p12  | z3
-p13  | z2
-p14  | z8
-p15  | z1
+| codp | codz |
+|------|------|
+| p1   | z2   |
+| p2   | z3   |
+| p3   | z4   |
+| p4   | z5   |
+| p5   | z1   |
+| p6   | z8   |
+| p7   | z9   |
+| p8   | z8   |
+| p9   | z2   |
+| p10  | z3   |
+| p11  | z7   |
+| p12  | z3   |
+| p13  | z2   |
+| p14  | z8   |
+| p15  | z1   |
+
 
 Table "floors":
-codp | enderezo | m2  |  nif  | ano  
-------+----------+-----+-------+------
-p1   | aaa      |  60 | 368l  | 1991
+| codp | enderezo | m2  |  nif  | ano  |
+|------|----------|-----|-------|------|
+| p1   | aaa      |  60 | 368l  | 1991 |
+| ...  | ...      | ... | ...   | ...  |
+| ...  | ...      | ... | ...   | ...  |
+| ...  | ...      | ... | ...   | ...  |
+| ...  | ...      | ... | ...   | ...  |
+| ...  | ...      | ... | ...   | ...  |
+
+
 ...
 (List of floors and their details)
 
@@ -115,4 +123,5 @@ scriptSQL -- crea --> tablaPisos;
 fileSerialized -- guarda --> tablaPropiedades;
 fileSerialized -- guarda --> tablaPisos;
 ```
+
 
